@@ -1,0 +1,15 @@
+# ninja log v6
+1	228	7721866425125311	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-mkdir	7fc209b55c9cc4f2
+1	228	7721866425125311	Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-mkdir	7fc209b55c9cc4f2
+2	419	7730405311275740	Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-database	160eface4f76112f
+228	519	7721866428044942	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-download	df560083d9573e66
+745	958	7721866432424444	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-patch	c5791e3d123baa48
+228	519	7721866428044942	Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-download	df560083d9573e66
+2	4172	7721867479134312	Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-configure	e7eaa519f636a9c0
+520	745	7721866430304721	Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-update	27544bd6a794cbdf
+520	745	7721866430304721	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-update	27544bd6a794cbdf
+745	958	7721866432424444	Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-patch	c5791e3d123baa48
+2	4172	7721867479134312	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-configure	e7eaa519f636a9c0
+2	419	7730405311275740	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-database	160eface4f76112f
+2	409	7730407232405140	Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-database	160eface4f76112f
+2	409	7730407232405140	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-database	160eface4f76112f
