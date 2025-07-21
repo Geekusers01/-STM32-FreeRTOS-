@@ -1,0 +1,118 @@
+cbuild-run:
+  generated-by: csolution version 2.8.0
+  solution: Fly_Control.csolution.yml
+  target-type: Fly_Control
+  compiler: AC6
+  device: STMicroelectronics::STM32F103C8
+  device-pack: Keil::STM32F1xx_DFP@2.4.1
+  programming:
+    - algorithm: ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Flash/STM32F10x_128.FLM
+      start: 0x08000000
+      size: 0x00020000
+      default: true
+    - algorithm: ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Flash/STM32F10x_OPT.FLM
+      start: 0x1FFFF800
+      size: 0x00000010
+  system-descriptions:
+    - file: ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/SVD/STM32F103xx.svd
+      type: svd
+  output:
+    - file: out/Fly_Control/Fly_Control/Fly_Control.axf
+      info: generate by Fly_Control+Fly_Control
+      type: elf
+  system-resources:
+    memory:
+      - name: IROM1
+        start: 0x08000000
+        size: 0x00010000
+        default: true
+        startup: true
+        from-pack: Keil::STM32F1xx_DFP@2.4.1
+      - name: IRAM1
+        start: 0x20000000
+        size: 0x00005000
+        default: true
+        from-pack: Keil::STM32F1xx_DFP@2.4.1
+  debugger:
+    - name: <default>
+      port: swd
+      clock: 10000000
+      dbgconf: RTE/Device/STM32F103C8/STM32F101_102_103_105_107.dbgconf
+  debug-vars:
+    vars: |
+      __var DbgMCU_CR      = 0x00000007;   // DBGMCU_CR:  DBG_SLEEP, DBG_STOP, DBG_STANDBY
+  debug-sequences:
+    - name: DebugDeviceUnlock
+      blocks:
+        - execute: |
+            Sequence("CheckID");
+    - name: DebugCoreStart
+      blocks:
+        - execute: |
+            // Replication of Standard Functionality
+            Write32(0xE000EDF0, 0xA05F0001);                                        // Enable Core Debug via DHCSR
+
+            // Device Specific Debug Setup
+            Write32(0xE0042004, DbgMCU_CR);                                         // DBGMCU_CR: Configure MCU Debug
+    - name: TraceStart
+      blocks:
+        - execute: |
+            __var traceSWO    = (__traceout & 0x1) != 0;                        // SWO Trace Selected?
+            __var traceTPIU   = (__traceout & 0x2) != 0;                        // TPIU Trace Selected?
+        - if: traceSWO
+          execute: |
+            Sequence("EnableTraceSWO");                                           // Call SWO Trace Setup
+        - if: traceTPIU
+          execute: |
+            Sequence("EnableTraceTPIU");                                          // Call TPIU Trace Setup
+    - name: EnableTraceSWO
+      blocks:
+        - execute: |
+            __var dbgmcu_val    = 0;                                                // DBGMCU_CR Value
+
+            dbgmcu_val  = Read32(0xE0042004) & (~0xE0);                         // Read DBGMCU_CR and clear trace setup
+            dbgmcu_val |= (1 << 5);                                           // Trace I/O Enable + Trace Mode Asynchronous
+
+            Write32(0xE0042004, dbgmcu_val);                                        // Write DBGMCU_CR: Trace Settings
+    - name: EnableTraceTPIU
+      blocks:
+        - execute: |
+            __var width         = (__traceout & 0x003F0000) >> 16;        // TPIU Port Width
+            __var dbgmcu_val    = 0;                                                // DBGMCU_CR Value
+
+            dbgmcu_val  = Read32(0xE0042004) & (~0xE0);                         // Read DBGMCU_CR and clear trace setup
+            dbgmcu_val |= (1 << 5);                                           // Trace I/O Enable
+        - if: width == 1
+          execute: |
+            // 1-Bit TPIU Trace Setup
+            dbgmcu_val    |= (1 << 6);                                      // Trace Mode (1-Bit)
+        - if: width == 2
+          execute: |
+            // 2-Bit TPIU Trace Setup
+            dbgmcu_val    |= (2 << 6);                                      // Trace Mode (2-Bit)
+        - if: width == 4
+          execute: |
+            // 4-Bit TPIU Trace Setup
+            dbgmcu_val    |= (3 << 6);                                      // Trace Mode (4-Bit)
+        - execute: |
+            // Write Trace Configuration to Target
+            Write32(0xE0042004, dbgmcu_val);                                        // Write DBGMCU_CR: Trace Settings
+    - name: CheckID
+      blocks:
+        - execute: |
+            __var pidr1 = 0;
+            __var pidr2 = 0;
+            __var jep106id = 0;
+            __var ROMTableBase = 0;
+
+            __ap = 0;      // AHB-AP
+
+            ROMTableBase = ReadAP(0xF8) & ~0x3;
+
+            pidr1 = Read32(ROMTableBase + 0x0FE4);
+            pidr2 = Read32(ROMTableBase + 0x0FE8);
+            jep106id = ((pidr2 & 0x7) << 4 ) | ((pidr1 >> 4) & 0xF);
+        - if: jep106id != 0x20
+          execute: |
+            Query(0, "Not a genuine ST Device! Abort connection", 1);
+            Message(2, "Not a genuine ST Device! Abort connection.");

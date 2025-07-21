@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/CMakeFiles/Fly_Control+Fly_Control-build"
+		},
+		{
+			"file" : "C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/CMakeFiles/Fly_Control+Fly_Control-build.rule"
+		},
+		{
+			"file" : "C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-build.rule"
+		},
+		{
+			"file" : "C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-configure.rule"
+		},
+		{
+			"file" : "C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-patch.rule"
+		},
+		{
+			"file" : "C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-update.rule"
+		},
+		{
+			"file" : "C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-download.rule"
+		},
+		{
+			"file" : "C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/Fly_Control+Fly_Control/src/Fly_Control+Fly_Control-stamp/Fly_Control+Fly_Control-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Fly_Control+Fly_Control"
+		],
+		"name" : "Fly_Control+Fly_Control-build"
+	}
+}
