@@ -1,0 +1,95 @@
+# ninja log v6
+3	195	7721867481531288	CMakeFiles/database	81aa370701569357
+3	195	7721867481531288	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+3	196	7721867754074864	CMakeFiles/database	81aa370701569357
+3	196	7721867754074864	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+5	177	7721868921715916	CMakeFiles/database	81aa370701569357
+5	177	7721868921715916	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+3	173	7721868935940059	CMakeFiles/database	81aa370701569357
+3	173	7721868935940059	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+119	1187	7721869010997360	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/gpio.o	aea8eb8ade9e9b25
+188	1260	7721869011684791	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/i2c.o	4be6f0524b218805
+262	1330	7721869012428698	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/spi.o	51d3219378422149
+334	1394	7721869013139495	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/tim.o	ed555b2443f2bf37
+395	1455	7721869013749301	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/usart.o	1bfa450c6465cb75
+535	1517	7721869015154339	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/stm32f1xx_hal_msp.o	a4a18e1cfcb571ed
+605	1580	7721869015854358	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o	d18531df3901a6ce
+678	1647	7721869016576495	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o	1284d714b6377f15
+747	1719	7721869017261370	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o	674d712b17605800
+813	1790	7721869017937415	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o	9db342729c264eb6
+872	1854	7721869018514921	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o	ebd1084a5909ec6f
+931	1923	7721869019117487	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o	5329ab8b4b5ed9a7
+993	1984	7721869019734519	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o	83ee0af3bb4498ad
+1057	2046	7721869020376726	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o	c1f9401ad6421c27
+1119	2104	7721869020997037	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o	40b67f82bdff82e1
+1189	2162	7721869021686882	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o	f708f5f88f2b18ad
+1261	2221	7721869022405648	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o	7d4b258e1e4e8297
+1330	2281	7721869023102681	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o	43c34c92814c11c8
+1394	2346	7721869023746162	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o	5f8128773ab98efd
+1455	2410	7721869024350190	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o	dccec8e5bbd3105d
+1517	2476	7721869024970767	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o	53ff379d0adcb59e
+1580	2539	7721869025604531	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o	c0d88194912e7395
+1647	2602	7721869026273756	CMakeFiles/Group_Drivers_CMSIS.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/system_stm32f1xx.o	38adc862769bc4b0
+1719	2662	7721869026997448	CMakeFiles/Group_Common.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Common/config/Com_Config.o	13b88dc62933fbfc
+1790	2724	7721869027707583	CMakeFiles/Group_Common.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Common/debug/Com_Debug.o	8f1d6aea1b9d7619
+1854	2787	7721869028343130	CMakeFiles/Group_Common.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Common/util/Com_Filter.o	3deb9d89d18f936b
+2662	2848	7721869036426602	CMakeFiles/Group_Interface.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Interface/led/Inf_LED.o	a23c64ed809f6094
+2724	2910	7721869037045392	CMakeFiles/Group_Interface.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Interface/motor/Inf_motor.o	cf68a9c28fdac978
+7	2927	7721869009863756	CMakeFiles/Group_Application_MDK-ARM.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/MDK-ARM/startup_stm32f103xb.o	c19835eb1b39fbcc
+2787	2972	7721869037671332	CMakeFiles/Group_Interface.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Interface/2_4g/Inf_SI24R1.o	20f8115fa7fcd017
+2848	3063	7721869038287859	CMakeFiles/Group_Interface.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Interface/mpu/Inf_mpu6050.o	95c42859fb7d0faf
+4	171	7722049938508065	CMakeFiles/database	81aa370701569357
+4	171	7722049938508065	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+4	235	7722050222895780	CMakeFiles/database	81aa370701569357
+4	235	7722050222895780	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+5	195	7722051416497078	CMakeFiles/database	81aa370701569357
+5	195	7722051416497078	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+24	290	7730388394875865	CMakeFiles/database	81aa370701569357
+24	290	7730388394875865	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+3	178	7730389733286552	CMakeFiles/database	81aa370701569357
+3	178	7730389733286552	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+4	175	7730390019760324	CMakeFiles/database	81aa370701569357
+4	175	7730390019760324	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+4	193	7730400946066445	CMakeFiles/database	81aa370701569357
+4	193	7730400946066445	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+144	1275	7730401485810363	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/gpio.o	aea8eb8ade9e9b25
+221	1354	7730401486580465	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/i2c.o	4be6f0524b218805
+292	1423	7730401487313409	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/spi.o	51d3219378422149
+358	1498	7730401487976931	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/tim.o	ed555b2443f2bf37
+422	1573	7730401488605933	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/usart.o	1bfa450c6465cb75
+566	1645	7730401490014752	CMakeFiles/Group_Application_User_Core.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/stm32f1xx_hal_msp.o	a4a18e1cfcb571ed
+641	1712	7730401490789706	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o	d18531df3901a6ce
+715	1782	7730401491524336	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o	1284d714b6377f15
+790	1851	7730401492274610	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o	674d712b17605800
+859	1922	7730401492980348	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o	9db342729c264eb6
+939	1991	7730401493790293	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o	ebd1084a5909ec6f
+1008	2059	7730401494449800	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o	5329ab8b4b5ed9a7
+1073	2126	7730401495120638	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o	83ee0af3bb4498ad
+1140	2192	7730401495797895	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o	c1f9401ad6421c27
+1207	2254	7730401496436208	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o	40b67f82bdff82e1
+1276	2325	7730401497155543	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o	f708f5f88f2b18ad
+1355	2402	7730401497938720	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o	7d4b258e1e4e8297
+1423	2470	7730401498628119	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o	43c34c92814c11c8
+1498	2545	7730401499378395	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o	5f8128773ab98efd
+1573	2611	7730401500126051	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o	dccec8e5bbd3105d
+1645	2675	7730401500841732	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o	53ff379d0adcb59e
+1712	2740	7730401501512808	CMakeFiles/Group_Drivers_STM32F1xx_HAL_Driver.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o	c0d88194912e7395
+1782	2803	7730401502213907	CMakeFiles/Group_Drivers_CMSIS.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Core/Src/system_stm32f1xx.o	38adc862769bc4b0
+1851	2871	7730401502909174	CMakeFiles/Group_Common.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Common/config/Com_Config.o	13b88dc62933fbfc
+1922	2937	7730401503615402	CMakeFiles/Group_Common.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Common/debug/Com_Debug.o	8f1d6aea1b9d7619
+1991	3001	7730401504306603	CMakeFiles/Group_Common.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Common/util/Com_Filter.o	3deb9d89d18f936b
+2871	3067	7730401513106089	CMakeFiles/Group_Interface.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Interface/led/Inf_LED.o	a23c64ed809f6094
+2938	3136	7730401513768265	CMakeFiles/Group_Interface.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Interface/motor/Inf_motor.o	cf68a9c28fdac978
+7	3148	7730401484467447	CMakeFiles/Group_Application_MDK-ARM.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/MDK-ARM/startup_stm32f103xb.o	c19835eb1b39fbcc
+3001	3188	7730401514403426	CMakeFiles/Group_Interface.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Interface/2_4g/Inf_SI24R1.o	20f8115fa7fcd017
+3067	3285	7730401515068042	CMakeFiles/Group_Interface.dir/C_/Users/JTJ/Desktop/Flight_project/Fly_Control/Interface/mpu/Inf_mpu6050.o	95c42859fb7d0faf
+3	173	7730401936171351	CMakeFiles/database	81aa370701569357
+3	173	7730401936171351	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+5	182	7730404762660378	CMakeFiles/database	81aa370701569357
+5	182	7730404762660378	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+4	201	7730405110824786	CMakeFiles/database	81aa370701569357
+4	201	7730405110824786	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+3	193	7730405313469957	CMakeFiles/database	81aa370701569357
+3	193	7730405313469957	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
+4	179	7730407234616425	CMakeFiles/database	81aa370701569357
+4	179	7730407234616425	C:/Users/JTJ/Desktop/Flight project/Fly_Control/MDK-ARM/tmp/1/CMakeFiles/database	81aa370701569357
