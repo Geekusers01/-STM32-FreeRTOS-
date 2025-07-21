@@ -1,5 +1,0 @@
-{
-    "clangd.arguments": [
-        "--compile-commands-dir=c:\\Users\\JTJ\\Desktop\\Flight project\\Fly_Control\\MDK-ARM\\out\\Fly_Control\\Fly_Control"
-    ]
-}
