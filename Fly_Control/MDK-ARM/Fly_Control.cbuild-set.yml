@@ -1,4 +1,0 @@
-cbuild-set:
-  generated-by: vscode-cmsis-csolution version 1.54.0
-  contexts:
-    - context: Fly_Control+Fly_Control
