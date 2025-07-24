@@ -18,6 +18,8 @@
   
   设计并调优串级PID参数，将姿态平衡响应时间缩短50%，姿态抖动幅度降低到±1度。
 
+【STM32&FreeRTOS四轴飞行器功能演示视频】https://www.bilibili.com/video/BV1hJb1zME6Q?vd_source=1d6eb56c93cf780491517dccbef2468a
+
 Project Introduction: The project involves designing a quadcopter based on STM32 and FreeRTOS. The remote control transmits joystick and button data via 2.4G to control the autonomous flight of the quadcopter. The automatic balance of the quadcopter's attitude and the function of hovering at a fixed height are achieved through attitude calculation and cascade PID control. 
 
 Functions and Responsibilities: 
@@ -29,3 +31,5 @@ Hardware debugging and problem-solving: Address issues such as motor whining, se
 Achievements: 
 Achieve stable attitude control and altitude-holding hovering, with attitude balance accuracy reaching ±1 degree and altitude-holding hovering accuracy reaching ±3 centimeters. 
 Design and optimize the cascade PID parameters to reduce the attitude balance response time by 50% and lower the attitude jitter amplitude to ±1 degree.
+
+【STM32 & FreeRTOS Quadcopter Flight Control Function Demonstration Video】https://www.bilibili.com/video/BV1hJb1zME6Q?vd_source=1d6eb56c93cf780491517dccbef2468a
