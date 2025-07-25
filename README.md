@@ -1,5 +1,7 @@
 # Quadcopter_Control-STM32-FreeRTOS
 
+技术栈：STM32F103c8t6、FreeRTOS、通信（USART、I2C、SPI）、8520电机（PWM控制）、外设（MPU6050、Vl53L1X、SI24R1、0.96寸OLED）、摇杆值与电池电压（ADC、DMA）、串级PID控制（姿态、定高）
+
 项目简介：设计基于STM32与FreeRTOS的四轴飞行器，遥控通过2.4G发送摇杆、按键数据控制飞行器自主飞行，通过姿态解算和串级PID控制实现飞行器自动平衡姿态、定高悬停功能。
 
 功能与职责：
@@ -19,6 +21,8 @@
   设计并调优串级PID参数，将姿态平衡响应时间缩短50%，姿态抖动幅度降低到±1度。
 
 【STM32&FreeRTOS四轴飞行器功能演示视频】https://www.bilibili.com/video/BV1hJb1zME6Q?vd_source=1d6eb56c93cf780491517dccbef2468a
+
+Technology stack: STM32F103c8t6, FreeRTOS, communication (USART, I2C, SPI), 8520 motor (PWM control), peripherals (MPU6050, Vl53L1X, SI24R1, 0.96-inch OLED), joystick values and battery voltage (ADC, DMA), cascaded PID control (attitude, altitude stabilization)
 
 Project Introduction: The project involves designing a quadcopter based on STM32 and FreeRTOS. The remote control transmits joystick and button data via 2.4G to control the autonomous flight of the quadcopter. The automatic balance of the quadcopter's attitude and the function of hovering at a fixed height are achieved through attitude calculation and cascade PID control. 
 
